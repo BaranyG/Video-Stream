@@ -44,16 +44,15 @@ database.Paths.forEach(e => load_dir(e));
 
 for(film of database.Filmek){
     film.Path = film.Path.toString().slice(moviePath.length);
-    console.log(film.Path);
-    if(!database.Directories.includes(film.Path)){
-        const tempArr = film.path.split("/");
-        if(tempArr.length==1){
-            database.Directories.push(tempArr[0]);
-        }else{
-            //for(let i = 0; i++; i < tempArr.length){
-            //    tempArr[i].push(tempArr[i+1]);
-            //}
-        }
+    let Arr = film.Path.split("/");
+    Arr.pop();
+    console.log(Arr.length);
+    if(Arr.length==1 && !database.Directories.includes(Arr[0])){
+        console.log(Arr[0]);
+        database.Directories.push(Arr[0]);
+    }else if(Arr.length > 1){
+        Arr.push([]);
+        database.Directories.push(Arr[0]);
     }
 }
 
