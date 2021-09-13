@@ -1,9 +1,37 @@
 {
+    "Paths": [
+        "C:/Users/Lenovo/Desktop/Torrent/",
+        "C:/Users/Lenovo/Desktop/Torrent/Movies/",
+        "C:/Users/Lenovo/Desktop/Torrent/teszt/",
+        "C:/Users/Lenovo/Desktop/Torrent/Movies/teszt/",
+        "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/",
+        "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/asd/"
+    ],
     "Filmek": [
         {
-            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/video.mp4",
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/video.mp4",
             "Name": "video",
             "format": "mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/Movies/video.mp4",
+            "Name": "video",
+            "format": "mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/fadg121z1gewsfh.mp4",
+            "Name": "fadg121z1gewsfh",
+            "format": "mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/Movies/teszt/video.mp4",
+            "Name": "video",
+            "format": "mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/asd/ehfjrtsjsr2.mkv",
+            "Name": "ehfjrtsjsr2",
+            "format": "mkv"
         }
     ]
 }
