@@ -7,17 +7,18 @@ const fs = require("fs");
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
 const port = 8000;
-const moviePath = "C:/Users/Lenovo/Desktop/Torrent/"
+const moviePath = "E:/Torrent/"
 
 const database = {
     Paths: [],
-    Filmek: []
+    Filmek: [],
+    Directories: []
 };
 database.Paths.push(moviePath);
 
 for(path of database.Paths){
     const Directories = fs.readdirSync(path)
-    .filter(dir => !dir.includes("."));
+    .filter(dir => fs.statSync(path+dir).isDirectory());
     for(directories of Directories){
         if(!(database.Paths.includes(path+directories+"/")))
             database.Paths.push(path+directories+"/");
@@ -31,8 +32,8 @@ const load_dir = (path) => {
     for(const file of movie_files){
         const Film = {
             Path: path + file,
-            Name: file.split('.')[0],
-            format: file.split('.')[1]
+            Name: file.slice(0, file.lastIndexOf(".")),
+            format: file.slice(file.lastIndexOf("."), file.length)
         }
     database.Filmek.push(Film);
     }
@@ -40,8 +41,24 @@ const load_dir = (path) => {
 
 database.Paths.forEach(e => load_dir(e));
 
+
+for(film of database.Filmek){
+    film.Path = film.Path.toString().slice(moviePath.length);
+    console.log(film.Path);
+    if(!database.Directories.includes(film.Path)){
+        const tempArr = film.path.split("/");
+        if(tempArr.length==1){
+            database.Directories.push(tempArr[0]);
+        }else{
+            //for(let i = 0; i++; i < tempArr.length){
+            //    tempArr[i].push(tempArr[i+1]);
+            //}
+        }
+    }
+}
+
 fs.writeFile('./database.json', JSON.stringify(database, null, 4), function(err){
-    if(err) 
+    if(err)
         console.log("Error: Writing file:", err);
 });
 
@@ -56,10 +73,6 @@ app.listen(port, function () {
 app.get("/video-player", function (req, res) {
     res.sendFile(__dirname + "/video.html");
 });
-
-//app.get("/handle-form-data", (req, res) => {
-//    res.body.user
-//});
 
 app.post("/handle-form-data", (req, res) => {
     console.log(req.body);
