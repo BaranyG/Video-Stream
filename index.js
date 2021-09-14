@@ -7,11 +7,11 @@ const fs = require("fs");
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
 const port = 8000;
-const moviePath = "E:/Torrent/"
+const moviePath = "C:/Users/Lenovo/Desktop/Torrent/"
 
 const database = {
     Paths: [],
-    Filmek: [],
+    Movies: [],
     Directories: []
 };
 database.Paths.push(moviePath);
@@ -35,25 +35,40 @@ const load_dir = (path) => {
             Name: file.slice(0, file.lastIndexOf(".")),
             format: file.slice(file.lastIndexOf("."), file.length)
         }
-    database.Filmek.push(Film);
+    database.Movies.push(Film);
     }
 }
 
 database.Paths.forEach(e => load_dir(e));
 
 
-for(film of database.Filmek){
+for(film of database.Movies){
     film.Path = film.Path.toString().slice(moviePath.length);
     let Arr = film.Path.split("/");
-    Arr.pop();
-    console.log(Arr.length);
-    if(Arr.length==1 && !database.Directories.includes(Arr[0])){
-        console.log(Arr[0]);
-        database.Directories.push(Arr[0]);
-    }else if(Arr.length > 1){
-        Arr.push([]);
-        database.Directories.push(Arr[0]);
+    const Film = {
+        Movies: Arr.pop()
     }
+    
+    //AZ BAAAAAJ
+    if(database.Directories.length!=0){
+        for(let i = 0; i < database.Directories.length; i++){
+            let tempArr = [];
+            tempArr = database.Directories[i];
+            let index1 = database.Directories[i].length;
+            let index2 = Arr.length;
+            console.log(database.Directories[i], Arr);
+            if(index1 == index2)
+                for(let j = 0; j < index1; j++)
+                    if(database.Directories[i][j] == Arr[j]);
+
+                
+                    
+        
+                
+        }
+    }
+    Arr.push(Film);
+    database.Directories.push(Arr);
 }
 
 fs.writeFile('./database.json', JSON.stringify(database, null, 4), function(err){
