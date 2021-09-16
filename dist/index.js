@@ -10,8 +10,9 @@ const port = 8000;
 
 func.createPaths();
 func.createMovies();
-func.createDirectories();
+func.run();
 func.createDatabase();
+
 
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
