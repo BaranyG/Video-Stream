@@ -5,13 +5,12 @@ const app = express();
 module.exports = app;
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
+app.use(express.static("../public"));
 const func = require("./functions.js");
 const port = 8000;
 
-func.createPaths();
-func.createMovies();
 func.run();
-func.createDatabase();
+
 
 
 app.get("/", function (req, res) {
@@ -33,10 +32,5 @@ app.post("/handle-form-data", (req, res) => {
 app.get("/database", function(req, res) {
     res.sendFile(__dirname + "/database.json");
 });
-
-app.get("/style", function(req, res) {
-    res.sendFile(__dirname + "/style.css");
-});
-
 
 const video = require("./video.js")(app);

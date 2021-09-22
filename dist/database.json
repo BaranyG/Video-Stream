@@ -1,318 +1,92 @@
 {
     "Paths": [
-        "E:/Torrent/",
-        "E:/Torrent/asd/",
-        "E:/Torrent/DAEMON Tools Lite 10.13.0.1456 Multilingual/",
-        "E:/Torrent/Joker (2019) [WEBRip] [1080p] [YTS.LT]/",
-        "E:/Torrent/Kerbal.Space.Program.v1.11.2.03077-GOG/",
-        "E:/Torrent/Microsoft Visual Studio Enterprise 2019 16.3.0 + Serial/",
-        "E:/Torrent/Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/",
-        "E:/Torrent/Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/",
-        "E:/Torrent/Sony Vegas Pro 15.0.0 Build 384 + patch - Crackingpatching/",
-        "E:/Torrent/The.Forest-CODEX/",
-        "E:/Torrent/The.Witcher.Nightmare.of.the.Wolf.2021.YG/",
-        "E:/Torrent/The_Legend_of_Zelda_BotW/",
-        "E:/Torrent/YouTube.Downloader.v3.9.2.PRO.Full.Cracked.ORION/",
-        "E:/Torrent/asd/asd/",
-        "E:/Torrent/Kerbal.Space.Program.v1.11.2.03077-GOG/Kerbal.Space.Program.v1.11.2.03077-GOG/",
-        "E:/Torrent/Microsoft Visual Studio Enterprise 2019 16.3.0 + Serial/ISO/",
-        "E:/Torrent/Microsoft Visual Studio Enterprise 2019 16.3.0 + Serial/Serial/",
-        "E:/Torrent/Sony Vegas Pro 15.0.0 Build 384 + patch - Crackingpatching/Sony Vegas Pro 15.0.0 Build 384 + patch - Crackingpatching/",
-        "E:/Torrent/The.Witcher.Nightmare.of.the.Wolf.2021.YG/Torrent Downloaded From/",
-        "E:/Torrent/asd/asd/asd/",
-        "E:/Torrent/Kerbal.Space.Program.v1.11.2.03077-GOG/Kerbal.Space.Program.v1.11.2.03077-GOG/DLC/",
-        "E:/Torrent/Sony Vegas Pro 15.0.0 Build 384 + patch - Crackingpatching/Sony Vegas Pro 15.0.0 Build 384 + patch - Crackingpatching/patch/"
+        "C:/Users/Lenovo/Desktop/Torrent/",
+        "C:/Users/Lenovo/Desktop/Torrent/Movies/",
+        "C:/Users/Lenovo/Desktop/Torrent/teszt/",
+        "C:/Users/Lenovo/Desktop/Torrent/Movies/teszt/",
+        "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/",
+        "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/asd/"
     ],
     "Movies": [
         {
-            "Path": "Joker (2019) [WEBRip] [1080p] [YTS.LT]/Joker.2019.1080p.WEBRip.x264-[YTS.LT].mp4",
-            "Name": "Joker.2019.1080p.WEBRip.x264-[YTS.LT]",
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/video.mp4",
+            "Name": "video",
             "Format": ".mp4"
         },
         {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E01 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E01 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/Movies/video.mp4",
+            "Name": "video",
+            "Format": ".mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/fadg121z1gewsfh.mp4",
+            "Name": "fadg121z1gewsfh",
+            "Format": ".mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/video.mp4",
+            "Name": "video",
+            "Format": ".mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/Movies/teszt/video.mp4",
+            "Name": "video",
+            "Format": ".mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/video.mp4",
+            "Name": "video",
+            "Format": ".mp4"
+        },
+        {
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/asd/ehfjrtsjsr2.mkv",
+            "Name": "ehfjrtsjsr2",
             "Format": ".mkv"
         },
         {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E03 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E03 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E04 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E04 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E05 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E05 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E06 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E06 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E07 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E07 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E08 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E08 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly/Money Heist S02E09 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv",
-            "Name": "Money Heist S02E09 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E01.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E02.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E02.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E03.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E03.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E04.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E04.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E05.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E05.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E06.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E06.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E07.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E07.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E08.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E08.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E09.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E09.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E10.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E10.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E11.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E11.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E12.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E12.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY/Money.Heist.S01E13.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv",
-            "Name": "Money.Heist.S01E13.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "The.Witcher.Nightmare.of.the.Wolf.2021.YG/The.Witcher.Nightmare.of.the.Wolf.2021.720p.WEB.H264-Dual.YG.mkv",
-            "Name": "The.Witcher.Nightmare.of.the.Wolf.2021.720p.WEB.H264-Dual.YG",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "The.Witcher.Nightmare.of.the.Wolf.2021.YG/The.Witcher.Nightmare.of.the.Wolf.2021.mkv",
-            "Name": "The.Witcher.Nightmare.of.the.Wolf.2021",
-            "Format": ".mkv"
-        },
-        {
-            "Path": "asd/asd/asd/video.mp4",
+            "Path": "C:/Users/Lenovo/Desktop/Torrent/teszt/asd/asd/video.mp4",
             "Name": "video",
             "Format": ".mp4"
         }
     ],
     "Directories": [
-        [
-            "Joker (2019) [WEBRip] [1080p] [YTS.LT]",
-            {
-                "Movies": "Joker.2019.1080p.WEBRip.x264-[YTS.LT].mp4"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E01 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E03 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E04 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E05 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E06 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E07 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E08 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money Heist S02 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly",
-            {
-                "Movies": "Money Heist S02E09 720p NF WEBRip Hindi English AAC 5.1 MSubs x264 - LOKiHD - Telly.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E01.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E02.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E03.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E04.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E05.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E06.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E07.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E08.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E09.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E10.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E11.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E12.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "Money.Heist.S01.NF.WEBRip.x264.HUN.SPA.ENG-SFY",
-            {
-                "Movies": "Money.Heist.S01E13.NF.WEBRip.x264.HUN.SPA.ENG-SFY.mkv"
-            }
-        ],
-        [
-            "The.Witcher.Nightmare.of.the.Wolf.2021.YG",
-            {
-                "Movies": "The.Witcher.Nightmare.of.the.Wolf.2021.720p.WEB.H264-Dual.YG.mkv"
-            }
-        ],
-        [
-            "The.Witcher.Nightmare.of.the.Wolf.2021.YG",
-            {
-                "Movies": "The.Witcher.Nightmare.of.the.Wolf.2021.mkv"
-            }
-        ],
-        [
-            "asd",
-            "asd",
-            "asd",
-            {
-                "Movies": "video.mp4"
-            }
-        ]
+        {
+            "Name": "Torrent",
+            "Children": [
+                {
+                    "Name": "Movies",
+                    "Children": [
+                        {
+                            "Name": "teszt",
+                            "Children": [
+                                "video.mp4"
+                            ]
+                        },
+                        "video.mp4"
+                    ]
+                },
+                {
+                    "Name": "teszt",
+                    "Children": [
+                        {
+                            "Name": "asd",
+                            "Children": [
+                                {
+                                    "Name": "asd",
+                                    "Children": [
+                                        "ehfjrtsjsr2.mkv",
+                                        "video.mp4"
+                                    ]
+                                },
+                                "video.mp4"
+                            ]
+                        },
+                        "fadg121z1gewsfh.mp4",
+                        "video.mp4"
+                    ]
+                },
+                "video.mp4"
+            ]
+        }
     ]
 }

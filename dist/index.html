@@ -4,49 +4,67 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Index</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script>
             window.onload = () => {
                 
                 body = document.getElementsByTagName("body")[0];
                 div = document.createElement("div");
-                ul1 = document.createElement("ul");
-                li1 = document.createElement("li");
-                li1.innerHTML = "TESZT";
-                ul2 = document.createElement("ul");
+                $(div).appendTo(body);
 
+                //VIDEÓK
                 $.getJSON("/database", function(database){
+                    let ul = document.createElement("ul");
+                    $(ul).appendTo(div);
+                    let li = "<li> VIDEÓK: </li>"
+                    $(li).appendTo(ul);
+                    
                     $.each(database.Movies, function (i, movie) {
-                        let li = "<li>" + movie.Name+movie.Format + "</li>"
-                        $(li).appendTo(ul2);
+                        li = "<li>" + movie.Name+movie.Format + "</li>"
+                        $(li).appendTo(ul);
+                        
                     });
                 });
-                
-                
-                li1.appendChild(ul2);
-                ul1.appendChild(li1);
-                div.appendChild(ul1);
-                body.appendChild(div);
-                
+
+                //MAPPÁK
+                $.getJSON("/database", function(database){
+                    let ul = document.createElement("ul");
+                    $(ul).appendTo(div);
+
+                    $.each(database.Directories, function (i, directory) {
+                        let li = document.createElement("li");
+                        li.innerHTML = directory.Name;
+                        $(li).appendTo(ul);
+                        
+                        directory = directory.Children;
+                        ul = document.createElement("ul");
+                        $(ul).appendTo(li);
+                        $.each(directory, function (i, directory){
+                            if(directory){
+                                li = document.createElement("li");
+                                if(directory.Name){
+                                    li.innerHTML = directory.Name;
+                                    li.className = "folder";
+                                }else{
+                                    li.innerHTML = directory;
+                                    li.className = "video"
+                                }
+                                $(li).appendTo(ul);
+                            }
+                        });
+                    });
+                });
             };
             
         </script>
     </head>
     <body>
-        <table id="userdata">
-
-            <tbody>
-
-            </tbody>
-        </table>
         <a href="/video-player"> Videó lejátszó </a>
         <form action="/handle-form-data" method="POST">
             <input name="user" type="text" />
             
-            <button type="submit">Send This Bad Boy To The Server</button>
+            <button type="submit">Küldés</button>
         </form>
-
-        
     </body>
 </html>

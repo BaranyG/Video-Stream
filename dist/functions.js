@@ -1,13 +1,14 @@
 const fs = require("fs");
 const fsp = require("fs/promises");
 const Path = require("path");
-const moviePath = "E:/Torrent/"
+const moviePath = "C:/Users/Lenovo/Desktop/Torrent/"
 const database = {
     Paths: [],
     Movies: [],
     Directories: []
 };
 database.Paths.push(moviePath);
+
 const movieFolders = [];
 const formats = [
     ".mp4",
@@ -20,29 +21,34 @@ const formats = [
 module.exports = {
     loadMovies: async function(movie_path){
         const movies = {
-            name: Path.basename(movie_path),
-            children: []
+            Name: Path.basename(movie_path),
+            Children: []
         };
         const folders = await fsp.readdir(movie_path);
         for (const child of folders){
             const childStat = await fsp.stat(Path.join(movie_path, child))
-            if(childStat.isDirectory() && movieFolders.includes(child)){
-                movies.children.push(
+            if(childStat.isDirectory()){
+                movies.Children.push(
                     await this.loadMovies(Path.join(movie_path, child))
                 );
             }else if(formats.includes(Path.extname(child)))
-                movies.children.push(child);
+                movies.Children.push(child);
         }
         return movies;
     },
 
     run: async function(){
+        this.createPaths();
+        this.createMovies();
+
         const movies_path = moviePath;
 
         const movies = await this.loadMovies(movies_path);
-        //console.dir(movies, { deptth: null });
+        //console.dir(movies, { depth: null });
         
         database.Directories.push(movies);
+
+        this.createDatabase();
     },
 
     createPaths: function(){
@@ -67,8 +73,10 @@ module.exports = {
                 Format: file.slice(file.lastIndexOf("."), file.length)
             }
             //Csúnya kód >:(
-            if(!movieFolders.includes(path.split("/")[2]))
-                movieFolders.push(path.split("/")[2]);
+            const movieFolder = path.slice(moviePath.length).slice(0, path.slice(moviePath.length).indexOf("/"));
+            if(!movieFolders.includes(movieFolder))
+                if(movieFolder !== "") 
+                    movieFolders.push(movieFolder);
             database.Movies.push(Film);
         }
     },
