@@ -1,8 +1,24 @@
-li{
-    list-style-type: katakana;
+body{
+    background-image:url('../assets/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    
 }
-li.folder::marker{
-    content: url('../assets/folder-svg.svg');
-    width:16px;
-    height:16px;
+#container{
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: rgba(41, 45, 47, 0.5);
+}
+
+.folder{
+    color:coral;
+    list-style-image: url('../assets/folder-32.png');
+}
+.video{
+    color: crimson;
+    list-style-image: url('../assets/video-32.png');
 }

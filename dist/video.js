@@ -1,5 +1,5 @@
 const fs = require("fs");
-const moviePath = "C:/Users/Lenovo/Desktop/Torrent/"
+const moviePath = "E:/Torrent/"
 
 module.exports = (app) => {
 
