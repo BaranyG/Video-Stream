@@ -1,7 +1,7 @@
 const fs = require("fs");
 const fsp = require("fs/promises");
 const Path = require("path");
-const moviePath = "C:/Users/Lenovo/Desktop/Torrent/"
+const moviePath = "E:/Torrent/"
 const database = {
     Paths: [],
     Movies: [],
@@ -27,7 +27,7 @@ module.exports = {
         const folders = await fsp.readdir(movie_path);
         for (const child of folders){
             const childStat = await fsp.stat(Path.join(movie_path, child))
-            if(childStat.isDirectory()){
+            if(childStat.isDirectory() && movieFolders.includes(child)){
                 movies.Children.push(
                     await this.loadMovies(Path.join(movie_path, child))
                 );
@@ -86,7 +86,7 @@ module.exports = {
     },
 
     createDatabase: function(){
-        fs.writeFile('./database.json', JSON.stringify(database, null, 4), function(err){
+        fs.writeFile('./public/database.json', JSON.stringify(database, null, 4), function(err){
             if(err)
                 console.log("Error: Writing file:", err);
         });
